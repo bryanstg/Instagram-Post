@@ -5,12 +5,14 @@
 
 
 <b>Fundamentals:</b> 
-This exercise covers the following fundamentals: 
-1. Basic structure for every HTML5 website.
-2. The Link tag to import CSS Rules.
-3. Using google fonts. 
-4. Using the different selectors available in CSS. 
-5. Working with boxes: border, padding and margins. 
-6. Overflow. 
-7. Using Flex vs Postion vs Float vs Display. 
-8. Using a simple form.
+<p>This exercise covers the following fundamentals: </p>
+<ol>
+    <li> Basic structure for every HTML5 website.</li>
+    <li> The Link tag to import CSS Rules.</li>
+    <li> Using google fonts. </li>
+    <li> Using the different selectors available in CSS.</li> 
+    <li> Working with boxes: border, padding and margins. </li>
+    <li> Overflow.</li> 
+    <li> Using Flex vs Postion vs Float vs Display. </li>
+    <li> Using a simple form.</li>
+</ol>
