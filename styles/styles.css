@@ -6,7 +6,7 @@
 :root {
     --font-open: 'Open Sans', sans-serif;
     --font-size-med: 0.65rem;
-    --font-size-p: 0.5rem;
+    --font-size-p: 0.70rem;
 }
 
 
@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-open);
 }
 body {
     display: flex;
@@ -31,10 +32,11 @@ body {
     align-items: center;
 
     width: 22rem;
-    height: 31rem;
+    height: 31.8rem;
     background-color: rgb(230, 230, 230);
 
     font-family: var(--font-open);
+    letter-spacing: 0.50px;
 }
 
 /* _________________HEADER POST______________ */
@@ -42,8 +44,8 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 4.5rem;
-    padding: 0.8rem;
+    height: 3.3rem;
+    padding: 0 0.8rem;
 }
 /* --header-logo--- */
 .post__header--logo {
@@ -98,15 +100,60 @@ body {
 /* ______________POST PHOTO______________*/
 .post__photo {
     width: 100%;
-    height: 16.5rem;
+    height: 17.5rem;
 }
 .post__photo--background {
     width: 100%;
-    height: 16.5rem;
-    background-image: url(/styles/fotos/pexels-daria-shevtsova-709854.jpg);
+    height: 100%;
+    background-image: url(/styles/fotos/pexels-ann-h-4272264.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 }
 
 /* __________INTERACTIONS__________ */
+.post__interaction {
+    display: flex;
+    flex-flow: column nowrap;
+
+    height: 11rem;
+    width: 100%;
+}
+/* --- Post actions --- */
+.post__interaction--action{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.4rem;
+}
+.action-icon {
+    width: 1.3rem;
+    margin: auto 0.15rem;
+}
+.interaction__action--cls {
+    margin: 0.2rem 0.5rem;
+}
+
+/* --- Post likes --- */
+.post__interaction--likes {
+    height: auto;
+    width: 100%;
+    font-size: var(--font-size-p);
+    padding: 0.2rem 0.9rem 0.4rem 0.9rem;
+}
+.post__interaction--likes > p > span {
+    font-weight: 800;
+}
+
+/* ---Post comment --- */
+
+.post__interaction--comments {
+    width: 100%;
+    height: 7.5rem;
+    font-size: var(--font-size-p);
+    padding: 0.2rem 0.9rem 0.4rem 0.9rem;
+}
